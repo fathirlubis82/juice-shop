@@ -1,0 +1,31 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-DECOMPRESS-20254116:
+    - '*':
+        reason: 'Tidak ada versi perbaikan; terbawa dari download@8.0.0; aplikasi latihan (OWASP Juice Shop) yang sengaja rentan'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-17874437:
+    - '*':
+        reason: 'Tidak ada versi perbaikan; terbawa dari download@8.0.0'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-17937347:
+    - '*':
+        reason: 'Tidak ada versi perbaikan; terbawa dari download@8.0.0'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Tidak ada versi perbaikan; dipakai Juice Shop untuk skenario NoSQL injection yang disengaja'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964064:
+    - '*':
+        reason: 'Tidak ada versi perbaikan; transitif dari download > got'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964068:
+    - '*':
+        reason: 'Tidak ada versi perbaikan; transitif dari download > got'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-PICOMATCH-21248802:
+    - '*':
+        reason: 'Tidak ada versi perbaikan dari maintainer; dipantau sampai patch tersedia'
+        expires: 2027-06-30T00:00:00.000Z
+patch: {}
